@@ -5,14 +5,17 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import ICard from './components/ICard'
 import ICardGallery from './components/ICardGallery'
+import StateHandling from './components/StateHandling'
+import changecolour from './components/ChangeColour'
 
 function App() {
+ 
  
 
   return (
     <div>
-   <ICardGallery />
-
+   {/* <ICardGallery /> */}
+   <StateHandling />
     
     </div>
   )
